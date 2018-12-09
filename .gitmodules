@@ -1,0 +1,3 @@
+[submodule "Loki/vendor/spdlog"]
+	path = Loki/vendor/spdlog
+	url = https://github.com/gabime/spdlog

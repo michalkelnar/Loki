@@ -57,6 +57,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>LOKI_PLATFORM_WINDOWS; LOKI_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Loki\vendor\spdlog\include;$(SolutionDir)Loki\src\loki</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -68,6 +69,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>LOKI_PLATFORM_WINDOWS; LOKI_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Loki\vendor\spdlog\include;$(SolutionDir)Loki\src\loki</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -79,9 +81,11 @@
     <ClInclude Include="src\Loki\Application.h" />
     <ClInclude Include="src\Loki\Core.h" />
     <ClInclude Include="src\Loki\EntryPoint.h" />
+    <ClInclude Include="src\Loki\Utils\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Loki\Application.cpp" />
+    <ClCompile Include="src\Loki\Utils\Log.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
