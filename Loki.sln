@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{1AD71E67-7415-4E14-887A-34BC31862D16}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loki", "Loki\Loki.vcxproj", "{1F282060-DEA8-481E-91AD-43659C211B40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F282060-DEA8-481E-91AD-43659C211B40}.Debug|x64.ActiveCfg = Debug|x64
+		{1F282060-DEA8-481E-91AD-43659C211B40}.Debug|x64.Build.0 = Debug|x64
+		{1F282060-DEA8-481E-91AD-43659C211B40}.Debug|x86.ActiveCfg = Debug|x64
+		{1F282060-DEA8-481E-91AD-43659C211B40}.Release|x64.ActiveCfg = Release|x64
+		{1F282060-DEA8-481E-91AD-43659C211B40}.Release|x64.Build.0 = Release|x64
+		{1F282060-DEA8-481E-91AD-43659C211B40}.Release|x86.ActiveCfg = Release|x64
+		{1AD71E67-7415-4E14-887A-34BC31862D16}.Debug|x64.ActiveCfg = Debug|x64
+		{1AD71E67-7415-4E14-887A-34BC31862D16}.Debug|x64.Build.0 = Debug|x64
+		{1AD71E67-7415-4E14-887A-34BC31862D16}.Debug|x86.ActiveCfg = Debug|x64
+		{1AD71E67-7415-4E14-887A-34BC31862D16}.Release|x64.ActiveCfg = Release|x64
+		{1AD71E67-7415-4E14-887A-34BC31862D16}.Release|x64.Build.0 = Release|x64
+		{1AD71E67-7415-4E14-887A-34BC31862D16}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F45C2C13-137C-426F-80C3-80A3993A6A30}
+	EndGlobalSection
+EndGlobal
